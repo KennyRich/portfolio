@@ -24,7 +24,7 @@ class Projects extends Component {
               <Button href="https://medium.com/analytics-vidhya/malaria-cell-image-classification-using-keras-89a324f52131" target="_blank" colored>Medium</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
-              <IconButton name="share" style={{color:'grey'}}/>
+              <IconButton name="share" style={{color:'grey'}} href="https://twitter.com" target="_blank"/>
             </CardMenu>
           </Card>
           {/* Project 2 */}
@@ -35,10 +35,10 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button href="https://github.com/KennyRich/CNN-model-on-Nigerian-Food" target="_blank" colored>GitHub</Button>
-              <Button href="blog.usejournal.com/convolutional-neural-network-on-nigerian-foods-565493fcdd0e" target="_blank" colored>Medium</Button>
+              <Button href="https://blog.usejournal.com/convolutional-neural-network-on-nigerian-foods-565493fcdd0e" target="_blank" colored>Medium</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
-              <IconButton name="share" style={{color:'grey'}}/>
+              <IconButton name="share" style={{color:'grey'}} href="https://twitter.com" target="_blank"/>
             </CardMenu>
           </Card>
           {/* Project 3 */}
@@ -52,14 +52,14 @@ class Projects extends Component {
               <Button href = "https://blog.usejournal.com/convolutional-neural-network-on-oil-spills-in-niger-delta-71e6e6ecb674" target = "_blank" colored>Medium</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
-              <IconButton name="share" style={{color:'grey'}} />
+              <IconButton name="share" style={{color:'grey'}} href="https://twitter.com" target="_blank"/>
             </CardMenu>
           </Card>
         </div>
       )
     } if(this.state.activeTab === 1) {
       return (
-        <div><h1>Deep Learning</h1></div>
+        <div><h1>Machine Learning</h1></div>
       )
     }
   }

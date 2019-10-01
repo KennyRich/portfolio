@@ -1,19 +1,20 @@
 .header-color {
-  background: #f0fafc;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #f0fafc, #c3fdfd, #93fcc0);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #f0fafc, #c3fdfd, #93fcc0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #6961fc;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #273332, #333326, #283324);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #273332, #333326, #283324); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .landing-grid {
-  background: #833ab4;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #f0fafc, #c3fdfd, #93fcc0);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #f0fafc, #c3fdfd, #93fcc0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #4d6bfc;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #273332, #333326, #283324);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right,#273332, #333326, #283324); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+  overflow-y: scroll;
 }
 
 .projects-grid {
@@ -114,6 +115,7 @@
   font-size: 5em;
   padding: 8px;
 }
+
 .img-circular{
  width: 200px;
  justify-content: center;
@@ -122,4 +124,9 @@
  border-radius: 100px;
 /* -webkit-border-radius: 100px;
  -moz-border-radius: 100px;*/
+}
+
+.drawer{
+  background: -webkit-linear-gradient(to right, #273332, #333326, #283324);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right,#273332, #333326, #283324); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
