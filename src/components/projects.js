@@ -57,11 +57,11 @@ class Projects extends Component {
           </Card>
         </div>
       )
-    } if(this.state.activeTab === 1) {
+    } /*if(this.state.activeTab === 1) {
       return (
         <div><h1>Machine Learning</h1></div>
       )
-    }
+    }*/
   }
   render() {
     return(
